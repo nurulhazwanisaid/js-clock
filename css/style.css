@@ -46,3 +46,27 @@ body {
     transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+
+.hand:first-child {
+    width: 35%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hand:last-child {
+    width: 50%;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
